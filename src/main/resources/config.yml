@@ -1,0 +1,34 @@
+# Calendar Configuration
+
+# Calendar settings
+calendar:
+  start_date: "2026-12-21"
+  end_date: "2026-12-25"
+
+# GUI settings
+calendar_gui:
+  title: "&c&lChristmas Calendar"
+  rows: 6
+  close_button:
+    material: BARRIER
+    slot: 49
+    display_name: "&cClose"
+
+# Items settings
+items:
+  Tag_1:
+    material: CHEST
+    slot: 0
+    display_name: "&eEpic Key &7(Kristalle)"
+    commands:
+      - "[console] excellenteconomy:kristalle take %player_name% 3000"
+      - "[console] crates givekey %player_name% epic 1"
+      - "[message] &fEpic Key gekauft für &b&l3.000 &eKristalle."
+
+# Messages
+messages:
+  calendar_not_available: "&cThe calendar is not available yet."
+  calendar_already_opened: "&cYou have already opened the calendar today."
+  calendar_opened: "&aYou have opened the calendar!"
+  calendar_completed: "&aYou have completed the calendar!"
+  calendar_close: "&cCalendar closed."

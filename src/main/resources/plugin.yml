@@ -1,0 +1,12 @@
+name: Calendar
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: Kalle
+description: A Christmas calendar plugin for Paper 1.21
+api-version: "1.21"
+commands:
+  calendar:
+    description: Open the Christmas calendar
+    usage: /calendar
+    permission: calendar.use
+    permission-message: You do not have permission to use this command.

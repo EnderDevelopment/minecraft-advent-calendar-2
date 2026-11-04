@@ -1,0 +1,11 @@
+# Calendar Items Configuration
+
+items:
+  Tag_1:
+    material: CHEST
+    slot: 0
+    display_name: "&eEpic Key &7(Kristalle)"
+    commands:
+      - "[console] excellenteconomy:kristalle take %player_name% 3000"
+      - "[console] crates givekey %player_name% epic 1"
+      - "[message] &fEpic Key gekauft für &b&l3.000 &eKristalle."

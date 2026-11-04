@@ -1,0 +1,8 @@
+# Calendar Messages
+
+calendar:
+  not_available: "&cThe calendar is not available yet."
+  already_opened: "&cYou have already opened the calendar today."
+  opened: "&aYou have opened the calendar!"
+  completed: "&aYou have completed the calendar!"
+  close: "&cCalendar closed."
